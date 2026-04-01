@@ -1,0 +1,13 @@
+setting,pr_auc,f1,roc_auc
+"Text-only
+best model",0.6527,0.6067,0.8933
+"Text + raw
+context",0.6053,0.5499,0.8592
+"Text + engineered
+environment",0.6529,0.5951,0.891
+"Environment-
+only",0.2613,0.3347,0.6843
+"Complete-case
+text-only",0.4439,0.2941,0.8757
+"Complete-case
+text + engineered env",0.3274,0.3429,0.8101

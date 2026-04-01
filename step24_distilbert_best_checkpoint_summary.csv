@@ -1,0 +1,2 @@
+model_name,best_checkpoint,best_metric,selection_metric,num_train_epochs,max_length,learning_rate,train_batch_size,eval_batch_size
+distilbert-base-uncased,/Users/sultannazarulislam/Documents/ASRS_Project/ASRS_MainPhase_Project/step24_distilbert_outputs/checkpoint-2018,0.5392670157068062,f1,2,256,2e-05,8,8

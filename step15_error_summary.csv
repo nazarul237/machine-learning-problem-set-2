@@ -1,0 +1,5 @@
+error_type,count,percent
+TN,1152,73.0
+TP,196,12.42
+FP,128,8.11
+FN,102,6.46

@@ -1,0 +1,2 @@
+model,test_rows,test_unstable_cases,precision,recall,f1,roc_auc,pr_auc
+final_distilbert,1578,298,0.6225,0.5201,0.5667,0.8749,0.6213

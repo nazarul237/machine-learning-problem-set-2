@@ -1,0 +1,21 @@
+feature,coefficient,ngram_type,direction
+drone,-3.587812033079389,unigram,non_unstable_associated
+aircraft,-3.4011304247898293,unigram,non_unstable_associated
+engine,-2.878513108169338,unigram,non_unstable_associated
+contacted,-2.5256294179548417,unigram,non_unstable_associated
+landing gear,-2.2207237070281587,bigram,non_unstable_associated
+left rudder,-1.7463031893391945,bigram,non_unstable_associated
+approach plate,-1.707100265346106,bigram,non_unstable_associated
+landing clearance,-1.6692148185841527,bigram,non_unstable_associated
+crossing altitude,-1.387990593814656,bigram,non_unstable_associated
+aircraft cleared,-1.3350489410372675,bigram,non_unstable_associated
+stabilized approach,2.3872093840974693,bigram,unstable_associated
+aircraft ahead,2.390909046586806,bigram,unstable_associated
+missed approach,2.5992515809575836,bigram,unstable_associated
+feet agl,2.620421092437701,bigram,unstable_associated
+approach unstable,2.7205694798520357,bigram,unstable_associated
+unstable approach,3.1915691772339936,bigram,unstable_associated
+stable,5.166498903553065,unigram,unstable_associated
+approach,5.674710050448468,unigram,unstable_associated
+high,6.88118239490559,unigram,unstable_associated
+unstable,8.377979451035783,unigram,unstable_associated

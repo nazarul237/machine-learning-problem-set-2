@@ -1,0 +1,4 @@
+method,true_label_column,score_column,roc_auc
+Method 1: TF-IDF,true_label,score,0.8965944840604028
+Method 2: Doc2Vec,true_label,score,0.8439702181208053
+Method 3: DistilBERT,true_label,score,0.8748662961409396

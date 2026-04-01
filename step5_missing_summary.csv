@@ -1,0 +1,11 @@
+column,missing_count,missing_percent
+Time | Date,0,0.0
+incident_year,0,0.0
+Aircraft 1 | Flight Phase,0,0.0
+Report 1 | Narrative,0,0.0
+Report 1 | Synopsis,1,0.01
+text_main,0,0.0
+Environment | Flight Conditions,3371,30.19
+Environment | Weather Elements / Visibility,6906,61.85
+Environment | Light,4604,41.24
+Environment | Ceiling,8488,76.02

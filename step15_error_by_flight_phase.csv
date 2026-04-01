@@ -1,0 +1,35 @@
+Aircraft 1 | Flight Phase,FN,FP,TN,TP
+Climb; Cruise; Descent; Landing,0,0,1,0
+Cruise; Final Approach,0,1,2,0
+Cruise; Initial Approach,0,0,2,0
+Cruise; Landing,0,0,1,0
+Descent; Final Approach,0,0,1,1
+Descent; Final Approach; Initial Approach,0,0,1,0
+Descent; Initial Approach,0,0,14,1
+Descent; Landing,1,0,0,0
+Final Approach,30,51,353,99
+Final Approach; Climb,0,0,1,0
+Final Approach; Descent,0,0,1,0
+Final Approach; Initial Approach,0,0,8,7
+Final Approach; Initial Approach; Landing,0,0,1,0
+Final Approach; Initial Climb,0,1,0,1
+Final Approach; Landing,1,1,9,3
+Final Approach; Takeoff / Launch,0,0,0,1
+Hovering (UAS); Landing; Takeoff / Launch,0,0,4,0
+Hovering (UAS); Takeoff / Launch; Landing,0,0,1,0
+Initial Approach,26,45,358,49
+Initial Approach; Cruise,0,0,1,0
+Initial Approach; Descent,0,0,4,0
+Initial Approach; Final Approach,0,1,6,2
+Initial Approach; Initial Climb,0,0,1,0
+Initial Approach; Landing,0,0,3,0
+Landing,44,28,360,28
+Landing; Descent; Climb,0,0,1,0
+Landing; Final Approach,0,0,5,3
+Landing; Final Approach; Initial Approach,0,0,2,1
+Landing; Initial Approach,0,0,2,0
+Landing; Takeoff / Launch,0,0,1,0
+Landing; Taxi,0,0,4,0
+Parked; Taxi; Landing; Cruise,0,0,1,0
+Takeoff / Launch; Hovering (UAS); Landing,0,0,1,0
+Taxi; Landing,0,0,2,0

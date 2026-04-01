@@ -1,0 +1,54 @@
+{
+  "best_global_step": 1009,
+  "best_metric": 0.39603960396039606,
+  "best_model_checkpoint": "/Users/sultannazarulislam/Documents/ASRS_Project/ASRS_MainPhase_Project/step24_distilbert_outputs/checkpoint-1009",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 1009,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "grad_norm": 14.534944534301758,
+      "learning_rate": 1.0009910802775025e-05,
+      "loss": 0.6279833427860195,
+      "step": 1009
+    },
+    {
+      "epoch": 1.0,
+      "eval_f1": 0.39603960396039606,
+      "eval_loss": 0.8021243214607239,
+      "eval_pr_auc": 0.6091010293642208,
+      "eval_precision": 0.7692307692307693,
+      "eval_recall": 0.26666666666666666,
+      "eval_roc_auc": 0.8618266253869968,
+      "eval_runtime": 135.3718,
+      "eval_samples_per_second": 11.206,
+      "eval_steps_per_second": 1.404,
+      "step": 1009
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 2018,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 2,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 534505953576960.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}

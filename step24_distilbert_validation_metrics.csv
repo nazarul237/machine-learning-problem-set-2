@@ -1,0 +1,2 @@
+model,validation_rows,validation_unstable_cases,precision,recall,f1,roc_auc,pr_auc
+distilbert_validation,1517,225,0.6561,0.4578,0.5393,0.8773,0.6239

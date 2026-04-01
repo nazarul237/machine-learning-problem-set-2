@@ -1,0 +1,7 @@
+method,pr_auc,f1,roc_auc
+"Method 1
+TF-IDF",0.6527,0.6067,0.8933
+"Method 2
+Doc2Vec",0.5524,0.5331,0.8559
+"Method 3
+DistilBERT",0.6239,0.5393,0.8773

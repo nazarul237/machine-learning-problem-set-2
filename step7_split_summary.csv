@@ -1,0 +1,4 @@
+split,rows,unstable_cases,non_unstable_cases,unstable_percent
+train_2018_2023,8070,947,7123,11.73
+validation_2024,1517,225,1292,14.83
+test_2025,1578,298,1280,18.88

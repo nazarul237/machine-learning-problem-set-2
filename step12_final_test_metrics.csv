@@ -1,0 +1,2 @@
+model,development_rows,test_rows,test_unstable_cases,precision,recall,f1,roc_auc,pr_auc
+final_text_only_logistic_regression,9587,1578,298,0.6049,0.6577,0.6302,0.8966,0.6733

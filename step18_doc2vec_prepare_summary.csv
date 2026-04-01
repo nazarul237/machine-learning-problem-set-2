@@ -1,0 +1,4 @@
+split,rows,unstable_cases,mean_token_count,median_token_count
+train,8070,947,251.39,201.0
+validation,1517,225,232.93,184.0
+test,1578,298,231.88,182.0

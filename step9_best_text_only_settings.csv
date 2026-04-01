@@ -1,0 +1,4 @@
+model,ngram_range,min_df,C,class_weight,alpha,precision,recall,f1,roc_auc,pr_auc
+logistic_regression,"(1, 2)",3,3.0,balanced,,0.6136,0.6,0.6067,0.8933,0.6527
+linear_svm,"(1, 2)",3,0.1,,,0.9032,0.1244,0.2188,0.8894,0.6468
+multinomial_nb,"(1, 2)",3,,,0.1,0.7639,0.2444,0.3704,0.8495,0.5757

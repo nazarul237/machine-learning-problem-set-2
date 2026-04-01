@@ -1,0 +1,9 @@
+metric,value
+char_length_mean,1450.9488580385132
+char_length_median,1150.0
+char_length_min,12.0
+char_length_max,11985.0
+word_count_mean,257.6620689655172
+word_count_median,205.0
+word_count_min,2.0
+word_count_max,2252.0

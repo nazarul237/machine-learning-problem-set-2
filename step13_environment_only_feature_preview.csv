@@ -1,0 +1,31 @@
+ACN,incident_year,label_unstable,env_flight_conditions,env_light,env_month,env_season,env_ceiling_bucket,env_visibility_bucket,env_has_turbulence,env_has_windshear,env_has_rain,env_has_icing,env_has_cloudy,env_has_fog,env_has_haze_smoke,env_has_thunderstorm,env_has_snow,env_any_adverse_weather
+1607168,2019,0,VMC,Missing,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607279,2019,0,Missing,Missing,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607313,2019,0,VMC,Daylight,Month_01,Winter,Missing,6_to_10,No,No,No,No,No,No,No,No,No,No
+1607322,2019,0,VMC,Dawn,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607344,2019,0,VMC,Missing,Month_01,Winter,Missing,6_to_10,No,No,No,No,No,No,No,No,No,No
+1607408,2019,0,VMC,Missing,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607411,2019,0,IMC,Missing,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607500,2019,0,IMC,Daylight,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607543,2019,0,IMC,Missing,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607628,2019,0,Marginal,Daylight,Month_01,Winter,Low,6_to_10,No,No,No,No,No,No,No,No,No,No
+1607637,2019,0,VMC,Daylight,Month_01,Winter,Clear,6_to_10,No,No,No,No,No,No,No,No,No,No
+1607646,2019,0,VMC,Dusk,Month_01,Winter,High,6_to_10,No,No,No,No,No,No,Yes,No,No,Yes
+1607672,2019,0,VMC,Daylight,Month_01,Winter,Missing,No Numeric Visibility,No,Yes,No,No,No,No,No,No,No,Yes
+1607708,2019,0,Mixed,Daylight,Month_01,Winter,Low,6_to_10,No,No,No,No,No,No,No,No,No,No
+1607756,2019,1,VMC,Daylight,Month_01,Winter,Medium,0_to_5,No,No,No,No,No,No,No,No,No,No
+1607798,2019,0,VMC,Dusk,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607850,2019,1,VMC,Daylight,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607852,2019,1,VMC,Daylight,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607869,2019,1,Marginal,Missing,Month_01,Winter,Very Low,No Numeric Visibility,No,No,Yes,No,No,No,No,No,No,Yes
+1607889,2019,0,VMC,Missing,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1607965,2019,0,VMC,Daylight,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1608057,2019,0,VMC,Daylight,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1608252,2019,0,VMC,Dawn,Month_01,Winter,High,11_plus,No,No,No,No,No,No,No,No,Yes,Yes
+1608282,2019,0,VMC,Daylight,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1608317,2019,0,Missing,Missing,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1608350,2019,0,Mixed,Night,Month_01,Winter,Medium,6_to_10,No,No,No,No,No,No,No,No,No,No
+1608453,2019,0,Missing,Missing,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1608460,2019,0,VMC,Missing,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1608497,2019,0,VMC,Daylight,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No
+1608571,2019,1,VMC,Daylight,Month_01,Winter,Missing,Missing,No,No,No,No,No,No,No,No,No,No

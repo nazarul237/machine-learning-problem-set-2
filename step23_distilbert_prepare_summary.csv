@@ -1,0 +1,4 @@
+split,rows,unstable_cases,mean_word_count,median_word_count
+train,8070,947,263.29,211.0
+validation,1517,225,243.9,193.0
+test,1578,298,242.1,190.0

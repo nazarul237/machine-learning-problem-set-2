@@ -1,0 +1,6 @@
+Environment | Flight Conditions,FN,FP,TN,TP
+IMC,6,7,43,20
+Marginal,1,0,7,2
+Missing,45,46,435,73
+Mixed,0,1,12,0
+VMC,50,74,655,101

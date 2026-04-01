@@ -1,0 +1,7 @@
+,text_char_length,text_char_length,text_char_length,text_char_length,text_word_count,text_word_count,text_word_count,text_word_count
+,mean,median,min,max,mean,median,min,max
+error_type,,,,,,,,
+FN,1355.8921568627452,1104.0,29,8408,241.16666666666666,196.0,5,1442
+FP,1823.3203125,1389.0,259,11544,319.1171875,240.5,39,1853
+TN,1259.5833333333333,1003.5,48,11985,222.52430555555554,178.0,8,2007
+TP,1736.9438775510205,1334.5,158,7700,307.3316326530612,241.5,29,1416

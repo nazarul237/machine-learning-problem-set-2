@@ -1,0 +1,6 @@
+metric,value
+rows_before_cleaning,12020
+rows_after_cleaning,11165
+rows_excluded,855
+kept_unstable_preview_count,1470
+kept_nonunstable_preview_count,9695

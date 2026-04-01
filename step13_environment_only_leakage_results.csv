@@ -1,0 +1,6 @@
+model_name,feature_count,features_removed,precision,recall,f1,roc_auc,pr_auc
+environment_only_full_feature_set,16,None,0.2185,0.7156,0.3347,0.6843,0.2613
+environment_only_minus_env_any_adverse_weather,15,env_any_adverse_weather,0.2193,0.7156,0.3358,0.6836,0.2594
+environment_only_minus_env_has_windshear,15,env_has_windshear,0.2154,0.7067,0.3302,0.6819,0.2555
+environment_only_minus_env_has_turbulence,15,env_has_turbulence,0.2176,0.7156,0.3337,0.6829,0.2613
+environment_only_minus_env_visibility_bucket,15,env_visibility_bucket,0.2188,0.7244,0.3361,0.6785,0.2502

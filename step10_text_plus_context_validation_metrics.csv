@@ -1,0 +1,4 @@
+model,precision,recall,f1,roc_auc,pr_auc,validation_rows,validation_unstable_cases
+linear_svm,0.8478,0.1733,0.2878,0.8616,0.6125,1517,225
+logistic_regression,0.5487,0.5511,0.5499,0.8592,0.6053,1517,225
+multinomial_nb,0.524,0.5333,0.5286,0.8078,0.5452,1517,225

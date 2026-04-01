@@ -1,0 +1,2 @@
+model,development_rows,test_rows,test_unstable_cases,precision,recall,f1,roc_auc,pr_auc
+final_doc2vec_logistic_regression,9587,1578,298,0.4506,0.7349,0.5587,0.844,0.5254

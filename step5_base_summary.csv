@@ -1,0 +1,7 @@
+metric,value
+rows_loaded_from_step4,11165.0
+rows_after_step5,11165.0
+rows_excluded_step5,0.0
+positive_unstable_cases,1470.0
+negative_nonunstable_cases,9695.0
+positive_class_percent,13.17
