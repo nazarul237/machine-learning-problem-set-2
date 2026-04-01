@@ -42,7 +42,7 @@ import pandas as pd
 # etc.
 # -----------------------------------------------------------------------------
 folder = Path(".")
-csv_files = sorted(folder.glob("ASRS_DBOnline*.csv"))
+csv_files = sorted((project_folder / "data" / "raw").glob("ASRS_DBOnline*.csv"))
 
 if len(csv_files) == 0:
     print("No ASRS raw CSV files were found in this folder.")
@@ -144,7 +144,7 @@ print()
 # was done transparently.
 # -----------------------------------------------------------------------------
 summary_df = pd.DataFrame(file_summary)
-summary_df.to_csv("step3_file_summary.csv", index=False)
+summary_df.to_csv(project_folder / "results" / "tables" / "step3_file_summary.csv", index=False)
 
 print("A file-by-file summary has been saved as:")
 print("- step3_file_summary.csv")
@@ -268,7 +268,7 @@ print()
 # We save the combined file exactly as it exists after header reconstruction and
 # concatenation. We are still not cleaning or filtering rows at this point.
 # -----------------------------------------------------------------------------
-combined_df.to_csv("step3_main_phase_combined_raw.csv", index=False)
+combined_df.to_csv(project_folder / "data" / "processed" / "step3_main_phase_combined_raw.csv", index=False)
 
 print("The combined raw dataset has been saved as:")
 print("- step3_main_phase_combined_raw.csv")

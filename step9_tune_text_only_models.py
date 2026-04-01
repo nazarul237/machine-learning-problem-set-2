@@ -58,19 +58,19 @@ from sklearn.metrics import (
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-train_file = project_folder / "step7_train_dataset.csv"
-validation_file = project_folder / "step7_validation_dataset.csv"
+train_file = project_folder / "data" / "splits" / "step7_train_dataset.csv"
+validation_file = project_folder / "data" / "splits" / "step7_validation_dataset.csv"
 
-all_results_file = project_folder / "step9_text_only_tuning_results.csv"
-best_settings_file = project_folder / "step9_best_text_only_settings.csv"
+all_results_file = project_folder / "results" / "tables" / "step9_text_only_tuning_results.csv"
+best_settings_file = project_folder / "results" / "tables" / "step9_best_text_only_settings.csv"
 
-pred_lr_file = project_folder / "step9_best_validation_predictions_logistic_regression.csv"
-pred_svm_file = project_folder / "step9_best_validation_predictions_linear_svm.csv"
-pred_nb_file = project_folder / "step9_best_validation_predictions_multinomial_nb.csv"
+pred_lr_file = project_folder / "results" / "tables" / "step9_best_validation_predictions_logistic_regression.csv"
+pred_svm_file = project_folder / "results" / "tables" / "step9_best_validation_predictions_linear_svm.csv"
+pred_nb_file = project_folder / "results" / "tables" / "step9_best_validation_predictions_multinomial_nb.csv"
 
-cm_lr_file = project_folder / "step9_best_confusion_matrix_logistic_regression.csv"
-cm_svm_file = project_folder / "step9_best_confusion_matrix_linear_svm.csv"
-cm_nb_file = project_folder / "step9_best_confusion_matrix_multinomial_nb.csv"
+cm_lr_file = project_folder / "results" / "tables" / "step9_best_confusion_matrix_logistic_regression.csv"
+cm_svm_file = project_folder / "results" / "tables" / "step9_best_confusion_matrix_linear_svm.csv"
+cm_nb_file = project_folder / "results" / "tables" / "step9_best_confusion_matrix_multinomial_nb.csv"
 
 
 # -----------------------------------------------------------------------------

@@ -51,7 +51,7 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 # This file should already exist because it was created in the previous step.
 # -----------------------------------------------------------------------------
-input_file = "step3_main_phase_combined_raw.csv"
+input_file = project_folder / "data" / "processed" / "step3_main_phase_combined_raw.csv"
 df = pd.read_csv(input_file, low_memory=False)
 
 print("=" * 90)
@@ -236,8 +236,8 @@ print()
 #    This is the audit file containing all removed rows and the reason they were
 #    excluded.
 # -----------------------------------------------------------------------------
-kept_df.to_csv("step4_scope_cleaned.csv", index=False)
-excluded_df.to_csv("step4_excluded_rows.csv", index=False)
+kept_df.to_csv(project_folder / "data" / "processed" / "step4_scope_cleaned.csv", index=False)
+excluded_df.to_csv(project_folder / "data" / "processed" / "step4_excluded_rows.csv", index=False)
 
 print("Files created:")
 print("- step4_scope_cleaned.csv")
@@ -265,7 +265,7 @@ summary_table = pd.DataFrame({
     ]
 })
 
-summary_table.to_csv("step4_cleaning_summary.csv", index=False)
+summary_table.to_csv(project_folder / "results" / "tables" / "step4_cleaning_summary.csv", index=False)
 
 print("- step4_cleaning_summary.csv")
 print()

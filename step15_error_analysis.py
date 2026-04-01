@@ -29,16 +29,16 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-predictions_file = project_folder / "step12_final_test_predictions.csv"
-test_data_file = project_folder / "step7_test_dataset.csv"
+predictions_file = project_folder / "results" / "tables" / "step12_final_test_predictions.csv"
+test_data_file = project_folder / "data" / "splits" / "step7_test_dataset.csv"
 
-summary_file = project_folder / "step15_error_summary.csv"
-false_positives_file = project_folder / "step15_top_false_positives.csv"
-false_negatives_file = project_folder / "step15_top_false_negatives.csv"
-true_positives_file = project_folder / "step15_top_true_positives.csv"
-phase_summary_file = project_folder / "step15_error_by_flight_phase.csv"
-flight_conditions_summary_file = project_folder / "step15_error_by_flight_conditions.csv"
-length_summary_file = project_folder / "step15_error_length_summary.csv"
+summary_file = project_folder / "results" / "tables" / "step15_error_summary.csv"
+false_positives_file = project_folder / "results" / "tables" / "step15_top_false_positives.csv"
+false_negatives_file = project_folder / "results" / "tables" / "step15_top_false_negatives.csv"
+true_positives_file = project_folder / "results" / "tables" / "step15_top_true_positives.csv"
+phase_summary_file = project_folder / "results" / "tables" / "step15_error_by_flight_phase.csv"
+flight_conditions_summary_file = project_folder / "results" / "tables" / "step15_error_by_flight_conditions.csv"
+length_summary_file = project_folder / "results" / "tables" / "step15_error_length_summary.csv"
 
 
 # -----------------------------------------------------------------------------

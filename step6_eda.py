@@ -30,23 +30,22 @@ import matplotlib.pyplot as plt
 # be opened from.
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
-input_file = project_folder / "step5_base_dataset.csv"
+input_file = project_folder / "data" / "processed" / "step5_base_dataset.csv"
 
 # Output files from this EDA step
-class_balance_file = project_folder / "step6_class_balance_summary.csv"
-missing_summary_file = project_folder / "step6_missing_summary.csv"
-text_length_summary_file = project_folder / "step6_text_length_summary.csv"
-year_summary_file = project_folder / "step6_year_summary.csv"
-flight_conditions_file = project_folder / "step6_flight_conditions_summary.csv"
-weather_visibility_file = project_folder / "step6_weather_visibility_summary.csv"
-light_summary_file = project_folder / "step6_light_summary.csv"
-ceiling_summary_file = project_folder / "step6_ceiling_summary.csv"
+class_balance_file = project_folder / "results" / "tables" / "step6_class_balance_summary.csv"
+missing_summary_file = project_folder / "results" / "tables" / "step6_missing_summary.csv"
+text_length_summary_file = project_folder / "results" / "tables" / "step6_text_length_summary.csv"
+year_summary_file = project_folder / "results" / "tables" / "step6_year_summary.csv"
+flight_conditions_file = project_folder / "results" / "tables" / "step6_flight_conditions_summary.csv"
+weather_visibility_file = project_folder / "results" / "tables" / "step6_weather_visibility_summary.csv"
+light_summary_file = project_folder / "results" / "tables" / "step6_light_summary.csv"
+ceiling_summary_file = project_folder / "results" / "tables" / "step6_ceiling_summary.csv"
 
-# Plot file names
-plot_class_balance = project_folder / "step6_plot_class_balance.png"
-plot_year_counts = project_folder / "step6_plot_rows_by_year.png"
-plot_unstable_rate = project_folder / "step6_plot_unstable_rate_by_year.png"
-plot_text_length = project_folder / "step6_plot_text_length_by_label.png"
+plot_class_balance = project_folder / "results" / "figures" / "step6_plot_class_balance.png"
+plot_year_counts = project_folder / "results" / "figures" / "step6_plot_rows_by_year.png"
+plot_unstable_rate = project_folder / "results" / "figures" / "step6_plot_unstable_rate_by_year.png"
+plot_text_length = project_folder / "results" / "figures" / "step6_plot_text_length_by_label.png"
 
 
 # -----------------------------------------------------------------------------

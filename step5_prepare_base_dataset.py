@@ -43,7 +43,7 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 # Step 5A: read the scope-cleaned dataset from Step 4
 # -----------------------------------------------------------------------------
-input_file = "step4_scope_cleaned.csv"
+input_file = project_folder / "data" / "processed" / "step4_scope_cleaned.csv"
 df = pd.read_csv(input_file, low_memory=False)
 
 print("=" * 90)
@@ -294,9 +294,9 @@ print()
 # 3. step5_missing_summary.csv
 #    Missing-value summary for the key analytical columns
 # -----------------------------------------------------------------------------
-base_df.to_csv("step5_base_dataset.csv", index=False)
-excluded_unusable_df.to_csv("step5_excluded_unusable_rows.csv", index=False)
-missing_summary.to_csv("step5_missing_summary.csv", index=False)
+base_df.to_csv(project_folder / "data" / "processed" / "step5_base_dataset.csv", index=False)
+excluded_unusable_df.to_csv(project_folder / "data" / "processed" / "step5_excluded_unusable_rows.csv", index=False)
+missing_summary.to_csv(project_folder / "results" / "tables" / "step5_missing_summary.csv", index=False)
 
 print("Files created:")
 print("- step5_base_dataset.csv")
@@ -327,7 +327,7 @@ summary_table = pd.DataFrame({
     ]
 })
 
-summary_table.to_csv("step5_base_summary.csv", index=False)
+summary_table.to_csv(project_folder / "results" / "tables" / "step5_base_summary.csv", index=False)
 
 print("- step5_base_summary.csv")
 print()

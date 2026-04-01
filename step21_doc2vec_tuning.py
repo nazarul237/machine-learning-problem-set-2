@@ -46,17 +46,17 @@ from sklearn.metrics import (
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-train_vectors_file = project_folder / "step19_doc2vec_train_vectors.csv"
-validation_vectors_file = project_folder / "step19_doc2vec_validation_vectors.csv"
+train_vectors_file = project_folder / "data" / "processed" / "step19_doc2vec_train_vectors.csv"
+validation_vectors_file = project_folder / "data" / "processed" / "step19_doc2vec_validation_vectors.csv"
 
-all_results_output = project_folder / "step21_doc2vec_tuning_results.csv"
-best_settings_output = project_folder / "step21_doc2vec_best_settings.csv"
+all_results_output = project_folder / "results" / "tables" / "step21_doc2vec_tuning_results.csv"
+best_settings_output = project_folder / "results" / "tables" / "step21_doc2vec_best_settings.csv"
 
-pred_lr_output = project_folder / "step21_doc2vec_best_validation_predictions_logistic_regression.csv"
-pred_svm_output = project_folder / "step21_doc2vec_best_validation_predictions_linear_svm.csv"
+pred_lr_output = project_folder / "results" / "tables" / "step21_doc2vec_best_validation_predictions_logistic_regression.csv"
+pred_svm_output = project_folder / "results" / "tables" / "step21_doc2vec_best_validation_predictions_linear_svm.csv"
 
-cm_lr_output = project_folder / "step21_doc2vec_best_confusion_matrix_logistic_regression.csv"
-cm_svm_output = project_folder / "step21_doc2vec_best_confusion_matrix_linear_svm.csv"
+cm_lr_output = project_folder / "results" / "tables" / "step21_doc2vec_best_confusion_matrix_logistic_regression.csv"
+cm_svm_output = project_folder / "results" / "tables" / "step21_doc2vec_best_confusion_matrix_linear_svm.csv"
 
 
 # -----------------------------------------------------------------------------

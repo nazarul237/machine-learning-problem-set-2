@@ -29,14 +29,14 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-train_file = project_folder / "step7_train_dataset.csv"
-validation_file = project_folder / "step7_validation_dataset.csv"
-test_file = project_folder / "step7_test_dataset.csv"
+train_file = project_folder / "data" / "splits" / "step7_train_dataset.csv"
+validation_file = project_folder / "data" / "splits" / "step7_validation_dataset.csv"
+test_file = project_folder / "data" / "splits" / "step7_test_dataset.csv"
 
-train_output = project_folder / "step23_distilbert_train.csv"
-validation_output = project_folder / "step23_distilbert_validation.csv"
-test_output = project_folder / "step23_distilbert_test.csv"
-summary_output = project_folder / "step23_distilbert_prepare_summary.csv"
+train_output = project_folder / "data" / "processed" / "step23_distilbert_train.csv"
+validation_output = project_folder / "data" / "processed" / "step23_distilbert_validation.csv"
+test_output = project_folder / "data" / "processed" / "step23_distilbert_test.csv"
+summary_output = project_folder / "results" / "tables" / "step23_distilbert_prepare_summary.csv"
 
 
 # -----------------------------------------------------------------------------

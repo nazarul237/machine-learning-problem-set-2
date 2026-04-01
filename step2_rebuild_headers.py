@@ -36,7 +36,7 @@ import pandas as pd
 # Find all raw ASRS CSV files in the current folder
 # -----------------------------------------------------------------------------
 folder = Path(".")
-csv_files = sorted(folder.glob("ASRS_DBOnline*.csv"))
+csv_files = sorted((project_folder / "data" / "raw").glob("ASRS_DBOnline*.csv"))
 
 if len(csv_files) == 0:
     print("No raw ASRS CSV files were found in this folder.")

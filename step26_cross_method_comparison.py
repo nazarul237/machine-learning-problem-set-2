@@ -32,12 +32,12 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-method1_file = project_folder / "step12_final_test_metrics.csv"
-method2_file = project_folder / "step22_doc2vec_final_test_metrics.csv"
-method3_file = project_folder / "step25_distilbert_final_test_metrics.csv"
+method1_file = project_folder / "results" / "tables" / "step12_final_test_metrics.csv"
+method2_file = project_folder / "results" / "tables" / "step22_doc2vec_final_test_metrics.csv"
+method3_file = project_folder / "results" / "tables" / "step25_distilbert_final_test_metrics.csv"
 
-comparison_output = project_folder / "step26_cross_method_comparison.csv"
-ranking_output = project_folder / "step26_cross_method_ranking.csv"
+comparison_output = project_folder / "results" / "tables" / "step26_cross_method_comparison.csv"
+ranking_output = project_folder / "results" / "tables" / "step26_cross_method_ranking.csv"
 
 
 # -----------------------------------------------------------------------------

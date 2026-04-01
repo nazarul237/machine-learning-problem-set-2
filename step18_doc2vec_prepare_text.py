@@ -36,15 +36,15 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-train_file = project_folder / "step7_train_dataset.csv"
-validation_file = project_folder / "step7_validation_dataset.csv"
-test_file = project_folder / "step7_test_dataset.csv"
+train_file = project_folder / "data" / "splits" / "step7_train_dataset.csv"
+validation_file = project_folder / "data" / "splits" / "step7_validation_dataset.csv"
+test_file = project_folder / "data" / "splits" / "step7_test_dataset.csv"
 
-train_output = project_folder / "step18_doc2vec_train_prepared.csv"
-validation_output = project_folder / "step18_doc2vec_validation_prepared.csv"
-test_output = project_folder / "step18_doc2vec_test_prepared.csv"
+train_output = project_folder / "data" / "processed" / "step18_doc2vec_train_prepared.csv"
+validation_output = project_folder / "data" / "processed" / "step18_doc2vec_validation_prepared.csv"
+test_output = project_folder / "data" / "processed" / "step18_doc2vec_test_prepared.csv"
 
-summary_output = project_folder / "step18_doc2vec_prepare_summary.csv"
+summary_output = project_folder / "results" / "tables" / "step18_doc2vec_prepare_summary.csv"
 
 
 # -----------------------------------------------------------------------------

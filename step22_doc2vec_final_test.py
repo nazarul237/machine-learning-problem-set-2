@@ -37,14 +37,14 @@ from sklearn.metrics import (
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-train_input = project_folder / "step18_doc2vec_train_prepared.csv"
-validation_input = project_folder / "step18_doc2vec_validation_prepared.csv"
-test_input = project_folder / "step18_doc2vec_test_prepared.csv"
+train_input = project_folder / "data" / "processed" / "step18_doc2vec_train_prepared.csv"
+validation_input = project_folder / "data" / "processed" / "step18_doc2vec_validation_prepared.csv"
+test_input = project_folder / "data" / "processed" / "step18_doc2vec_test_prepared.csv"
 
-model_output = project_folder / "step22_doc2vec_final_model.model"
-metrics_output = project_folder / "step22_doc2vec_final_test_metrics.csv"
-predictions_output = project_folder / "step22_doc2vec_final_test_predictions.csv"
-cm_output = project_folder / "step22_doc2vec_final_test_confusion_matrix.csv"
+model_output = project_folder / "models" / "step22_doc2vec_final_model.model"
+metrics_output = project_folder / "results" / "tables" / "step22_doc2vec_final_test_metrics.csv"
+predictions_output = project_folder / "results" / "tables" / "step22_doc2vec_final_test_predictions.csv"
+cm_output = project_folder / "results" / "tables" / "step22_doc2vec_final_test_confusion_matrix.csv"
 
 
 # -----------------------------------------------------------------------------

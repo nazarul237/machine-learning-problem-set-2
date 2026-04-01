@@ -51,13 +51,13 @@ from sklearn.metrics import (
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-train_file = project_folder / "step7_train_dataset.csv"
-validation_file = project_folder / "step7_validation_dataset.csv"
-test_file = project_folder / "step7_test_dataset.csv"
+train_file = project_folder / "data" / "splits" / "step7_train_dataset.csv"
+validation_file = project_folder / "data" / "splits" / "step7_validation_dataset.csv"
+test_file = project_folder / "data" / "splits" / "step7_test_dataset.csv"
 
-metrics_file = project_folder / "step12_final_test_metrics.csv"
-predictions_file = project_folder / "step12_final_test_predictions.csv"
-confusion_matrix_file = project_folder / "step12_final_test_confusion_matrix.csv"
+metrics_file = project_folder / "results" / "tables" / "step12_final_test_metrics.csv"
+predictions_file = project_folder / "results" / "tables" / "step12_final_test_predictions.csv"
+confusion_matrix_file = project_folder / "results" / "tables" / "step12_final_test_confusion_matrix.csv"
 
 
 # -----------------------------------------------------------------------------

@@ -62,18 +62,18 @@ from sklearn.metrics import (
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-train_file = project_folder / "step7_train_dataset.csv"
-validation_file = project_folder / "step7_validation_dataset.csv"
+train_file = project_folder / "data" / "splits" / "step7_train_dataset.csv"
+validation_file = project_folder / "data" / "splits" / "step7_validation_dataset.csv"
 
-metrics_file = project_folder / "step10_text_plus_context_validation_metrics.csv"
+metrics_file = project_folder / "results" / "tables" / "step10_text_plus_context_validation_metrics.csv"
 
-pred_lr_file = project_folder / "step10_validation_predictions_logistic_regression.csv"
-pred_svm_file = project_folder / "step10_validation_predictions_linear_svm.csv"
-pred_nb_file = project_folder / "step10_validation_predictions_multinomial_nb.csv"
+pred_lr_file = project_folder / "results" / "tables" / "step10_validation_predictions_logistic_regression.csv"
+pred_svm_file = project_folder / "results" / "tables" / "step10_validation_predictions_linear_svm.csv"
+pred_nb_file = project_folder / "results" / "tables" / "step10_validation_predictions_multinomial_nb.csv"
 
-cm_lr_file = project_folder / "step10_confusion_matrix_logistic_regression.csv"
-cm_svm_file = project_folder / "step10_confusion_matrix_linear_svm.csv"
-cm_nb_file = project_folder / "step10_confusion_matrix_multinomial_nb.csv"
+cm_lr_file = project_folder / "results" / "tables" / "step10_confusion_matrix_logistic_regression.csv"
+cm_svm_file = project_folder / "results" / "tables" / "step10_confusion_matrix_linear_svm.csv"
+cm_nb_file = project_folder / "results" / "tables" / "step10_confusion_matrix_multinomial_nb.csv"
 
 
 # -----------------------------------------------------------------------------
@@ -267,7 +267,7 @@ def evaluate_pipeline(model_name, pipeline, X_train, y_train, X_valid, y_valid, 
         predictions_df.to_csv(pred_nb_file, index=False)
         cm_output_file = cm_nb_file
     else:
-        cm_output_file = project_folder / f"step10_confusion_matrix_{model_name}.csv"
+        cm_output_file = project_folder / "results" / "tables" / f"step10_confusion_matrix_{model_name}.csv"
 
     cm = confusion_matrix(y_valid, y_pred)
     cm_df = pd.DataFrame(

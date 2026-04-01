@@ -53,14 +53,14 @@ from sklearn.metrics import (
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-train_file = project_folder / "step23_distilbert_train.csv"
-validation_file = project_folder / "step23_distilbert_validation.csv"
+train_file = project_folder / "data" / "processed" / "step23_distilbert_train.csv"
+validation_file = project_folder / "data" / "processed" / "step23_distilbert_validation.csv"
 
-output_dir = project_folder / "step24_distilbert_outputs"
+output_dir = project_folder / "models" / "step24_distilbert_outputs"
 
-metrics_output = project_folder / "step24_distilbert_validation_metrics.csv"
-checkpoint_output = project_folder / "step24_distilbert_best_checkpoint_summary.csv"
-predictions_output = project_folder / "step24_distilbert_validation_predictions.csv"
+metrics_output = project_folder / "results" / "tables" / "step24_distilbert_validation_metrics.csv"
+checkpoint_output = project_folder / "results" / "tables" / "step24_distilbert_best_checkpoint_summary.csv"
+predictions_output = project_folder / "results" / "tables" / "step24_distilbert_validation_predictions.csv"
 
 
 # -----------------------------------------------------------------------------

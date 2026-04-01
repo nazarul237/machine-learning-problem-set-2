@@ -36,12 +36,12 @@ from sklearn.metrics import (
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-test_file = project_folder / "step23_distilbert_test.csv"
-checkpoint_file = project_folder / "step24_distilbert_best_checkpoint_summary.csv"
+test_file = project_folder / "data" / "processed" / "step23_distilbert_test.csv"
+checkpoint_file = project_folder / "results" / "tables" / "step24_distilbert_best_checkpoint_summary.csv"
 
-metrics_output = project_folder / "step25_distilbert_final_test_metrics.csv"
-predictions_output = project_folder / "step25_distilbert_final_test_predictions.csv"
-cm_output = project_folder / "step25_distilbert_final_test_confusion_matrix.csv"
+metrics_output = project_folder / "results" / "tables" / "step25_distilbert_final_test_metrics.csv"
+predictions_output = project_folder / "results" / "tables" / "step25_distilbert_final_test_predictions.csv"
+cm_output = project_folder / "results" / "tables" / "step25_distilbert_final_test_confusion_matrix.csv"
 
 
 # -----------------------------------------------------------------------------

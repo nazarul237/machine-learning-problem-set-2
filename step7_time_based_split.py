@@ -44,12 +44,12 @@ import pandas as pd
 # to be opened from.
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
-input_file = project_folder / "step5_base_dataset.csv"
+input_file = project_folder / "data" / "processed" / "step5_base_dataset.csv"
 
-train_file = project_folder / "step7_train_dataset.csv"
-validation_file = project_folder / "step7_validation_dataset.csv"
-test_file = project_folder / "step7_test_dataset.csv"
-summary_file = project_folder / "step7_split_summary.csv"
+train_file = project_folder / "data" / "splits" / "step7_train_dataset.csv"
+validation_file = project_folder / "data" / "splits" / "step7_validation_dataset.csv"
+test_file = project_folder / "data" / "splits" / "step7_test_dataset.csv"
+summary_file = project_folder / "results" / "tables" / "step7_split_summary.csv"
 
 
 # -----------------------------------------------------------------------------

@@ -32,15 +32,15 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-train_input = project_folder / "step18_doc2vec_train_prepared.csv"
-validation_input = project_folder / "step18_doc2vec_validation_prepared.csv"
-test_input = project_folder / "step18_doc2vec_test_prepared.csv"
+train_input = project_folder / "data" / "processed" / "step18_doc2vec_train_prepared.csv"
+validation_input = project_folder / "data" / "processed" / "step18_doc2vec_validation_prepared.csv"
+test_input = project_folder / "data" / "processed" / "step18_doc2vec_test_prepared.csv"
 
-model_output = project_folder / "step19_doc2vec_model.model"
-train_vectors_output = project_folder / "step19_doc2vec_train_vectors.csv"
-validation_vectors_output = project_folder / "step19_doc2vec_validation_vectors.csv"
-test_vectors_output = project_folder / "step19_doc2vec_test_vectors.csv"
-summary_output = project_folder / "step19_doc2vec_vector_summary.csv"
+model_output = project_folder / "models" / "step19_doc2vec_model.model"
+train_vectors_output = project_folder / "data" / "processed" / "step19_doc2vec_train_vectors.csv"
+validation_vectors_output = project_folder / "data" / "processed" / "step19_doc2vec_validation_vectors.csv"
+test_vectors_output = project_folder / "data" / "processed" / "step19_doc2vec_test_vectors.csv"
+summary_output = project_folder / "results" / "tables" / "step19_doc2vec_vector_summary.csv"
 
 
 # -----------------------------------------------------------------------------

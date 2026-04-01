@@ -43,11 +43,11 @@ from sklearn.metrics import (
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-train_file = project_folder / "step7_train_dataset.csv"
-validation_file = project_folder / "step7_validation_dataset.csv"
+train_file = project_folder / "data" / "splits" / "step7_train_dataset.csv"
+validation_file = project_folder / "data" / "splits" / "step7_validation_dataset.csv"
 
-results_file = project_folder / "step17_complete_case_environment_comparison.csv"
-subset_summary_file = project_folder / "step17_complete_case_subset_summary.csv"
+results_file = project_folder / "results" / "tables" / "step17_complete_case_environment_comparison.csv"
+subset_summary_file = project_folder / "results" / "tables" / "step17_complete_case_subset_summary.csv"
 
 
 # -----------------------------------------------------------------------------

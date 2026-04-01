@@ -44,10 +44,10 @@ from sklearn.metrics import precision_score, recall_score, f1_score, confusion_m
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-input_file = project_folder / "step9_best_validation_predictions_logistic_regression.csv"
+input_file = project_folder / "results" / "tables" / "step9_best_validation_predictions_logistic_regression.csv"
 
-results_file = project_folder / "step14_threshold_analysis_results.csv"
-plot_file = project_folder / "step14_threshold_precision_recall_f1.png"
+results_file = project_folder / "results" / "tables" / "step14_threshold_analysis_results.csv"
+plot_file = project_folder / "results" / "figures" / "step14_threshold_precision_recall_f1.png"
 confusion_prefix = "step14_confusion_matrix_threshold_"
 
 
@@ -101,7 +101,6 @@ results = []
 # 4. Save a confusion matrix for later interpretation
 # -----------------------------------------------------------------------------
 for threshold in thresholds:
-    # Apply threshold rule
     y_pred = (y_score >= threshold).astype(int)
 
     precision = precision_score(y_true, y_pred, zero_division=0)
@@ -120,7 +119,6 @@ for threshold in thresholds:
         "predicted_non_unstable_cases": predicted_non_unstable_cases
     })
 
-    # Save confusion matrix for this threshold
     cm = confusion_matrix(y_true, y_pred)
     cm_df = pd.DataFrame(
         cm,
@@ -129,7 +127,7 @@ for threshold in thresholds:
     )
 
     threshold_label = str(threshold).replace(".", "_")
-    cm_file = project_folder / f"{confusion_prefix}{threshold_label}.csv"
+    cm_file = project_folder / "results" / "tables" / f"{confusion_prefix}{threshold_label}.csv"
     cm_df.to_csv(cm_file)
 
 

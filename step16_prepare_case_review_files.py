@@ -40,13 +40,13 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 project_folder = Path(__file__).resolve().parent
 
-fp_input = project_folder / "step15_top_false_positives.csv"
-fn_input = project_folder / "step15_top_false_negatives.csv"
-tp_input = project_folder / "step15_top_true_positives.csv"
+fp_input = project_folder / "results" / "tables" / "step15_top_false_positives.csv"
+fn_input = project_folder / "results" / "tables" / "step15_top_false_negatives.csv"
+tp_input = project_folder / "results" / "tables" / "step15_top_true_positives.csv"
 
-fp_output = project_folder / "step16_case_review_false_positives.csv"
-fn_output = project_folder / "step16_case_review_false_negatives.csv"
-tp_output = project_folder / "step16_case_review_true_positives.csv"
+fp_output = project_folder / "results" / "tables" / "step16_case_review_false_positives.csv"
+fn_output = project_folder / "results" / "tables" / "step16_case_review_false_negatives.csv"
+tp_output = project_folder / "results" / "tables" / "step16_case_review_true_positives.csv"
 
 
 # -----------------------------------------------------------------------------

@@ -45,7 +45,7 @@ import pandas as pd
 # Using Path('.') means "look in the current working folder".
 # -----------------------------------------------------------------------------
 folder = Path(".")
-csv_files = sorted(folder.glob("ASRS_DBOnline*.csv"))
+csv_files = sorted((project_folder / "data" / "raw").glob("ASRS_DBOnline*.csv"))
 
 # If no files are found, we stop the script immediately and print a helpful
 # message. This prevents confusion later and makes it obvious that the script
