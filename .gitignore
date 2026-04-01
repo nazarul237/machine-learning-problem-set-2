@@ -5,4 +5,3 @@ __pycache__/
 .DS_Store
 .vscode/
 .ipynb_checkpoints/
-tmp_trainer/
